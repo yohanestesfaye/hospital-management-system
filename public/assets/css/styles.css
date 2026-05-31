@@ -1,0 +1,182 @@
+:root {
+	--hms-primary: #0d6efd;
+}
+
+.card-link {
+	text-decoration: none;
+}
+
+.table-actions .btn {
+	margin-right: .25rem;
+}
+
+.form-required::after {
+	content: ' *';
+	color: #dc3545;
+}
+
+.doctor-dashboard .stat-card {
+	border-radius: 0.75rem;
+}
+
+.doctor-dashboard .stat-card .display-6 {
+	font-size: 2.25rem;
+}
+
+.doctor-dashboard .avatar-sm {
+	width: 48px;
+	height: 48px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	background: rgba(13,110,253,.08);
+	border-radius: 12px;
+}
+
+.doctor-dashboard .module-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+	gap: 1rem;
+}
+
+.doctor-dashboard .module-tile {
+	border: 1px solid #e5e7eb;
+	border-radius: 0.75rem;
+	padding: 1rem;
+	text-decoration: none;
+	color: inherit;
+	background: #fff;
+	box-shadow: 0 2px 4px rgba(15, 23, 42, 0.05);
+	transition: all .2s ease;
+	display: block;
+}
+
+.doctor-dashboard .module-tile:hover {
+	border-color: var(--hms-primary);
+	color: var(--hms-primary);
+	box-shadow: 0 8px 16px rgba(15, 23, 42, 0.1);
+	transform: translateY(-2px);
+}
+
+.doctor-dashboard .module-tile i {
+	font-size: 1.6rem;
+	color: var(--hms-primary);
+	margin-bottom: .25rem;
+	display: block;
+}
+
+.doctor-dashboard .clinical-form textarea {
+	min-height: 90px;
+	resize: vertical;
+}
+
+.doctor-dashboard .clinical-form .form-text {
+	font-size: .8rem;
+}
+
+.doctor-dashboard .timeline {
+	margin: 0;
+	padding: 0;
+}
+
+.doctor-dashboard .timeline-item {
+	position: relative;
+	padding-left: 1.5rem;
+	margin-bottom: 1.25rem;
+	border-left: 2px solid #e5e7eb;
+}
+
+.doctor-dashboard .timeline-item::before {
+	content: '';
+	position: absolute;
+	left: -6px;
+	top: .35rem;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: var(--hms-primary);
+}
+
+.doctor-dashboard .timeline-item:last-child {
+    margin-bottom: 0;
+    border-left: none;
+}
+
+.nurse-dashboard .stat-card {
+    border: 1px solid #e5e7eb;
+    border-radius: 0.75rem;
+}
+
+.nurse-dashboard .icon-circle {
+    width: 42px;
+    height: 42px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+}
+
+.nurse-dashboard .icon-primary { background: rgba(13,110,253,.08); color: #0d6efd; }
+.nurse-dashboard .icon-success { background: rgba(25,135,84,.08); color: #198754; }
+.nurse-dashboard .icon-warning { background: rgba(255,193,7,.12); color: #ffc107; }
+.nurse-dashboard .icon-danger { background: rgba(220,53,69,.1); color: #dc3545; }
+
+.nurse-dashboard .card-header {
+    border-bottom: 0;
+}
+
+.nurse-dashboard .section-title {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    font-weight: 600;
+}
+
+.nurse-dashboard .sticky-card {
+    position: sticky;
+    top: 1rem;
+}
+
+.nurse-dashboard .list-group-item-action {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: .5rem;
+}
+
+.nurse-dashboard .badge-pill {
+    border-radius: 50rem;
+    padding: .25rem .5rem;
+}
+
+.nurse-dashboard .table-hover tbody tr:hover {
+    background: #f8fafc;
+}
+
+.nurse-dashboard .search-input {
+    border-radius: .5rem;
+}
+
+/* Lab order offcanvas panel - compact, floating look */
+.lab-order-offcanvas {
+    --bs-offcanvas-width: 620px;
+    background: rgba(255,255,255,0.95);
+    backdrop-filter: saturate(180%) blur(8px);
+    box-shadow: -16px 0 32px rgba(15,23,42,0.18);
+    border-left: 1px solid #e5e7eb;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+.lab-order-offcanvas .offcanvas-header {
+    padding: 0.9rem 1.2rem;
+    background: linear-gradient(90deg, #0d6efd, #1a73e8);
+}
+.lab-order-offcanvas .offcanvas-title { font-weight: 600; }
+.lab-order-offcanvas .offcanvas-body { padding: 1rem 1.2rem; }
+.lab-order-offcanvas .form-label { font-size: .9rem; color: #495057; }
+.lab-order-offcanvas .form-select,
+.lab-order-offcanvas .form-control {
+    border-radius: 12px;
+}
+.lab-order-offcanvas .btn { border-radius: 10px; }
+
