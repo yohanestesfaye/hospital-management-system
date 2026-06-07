@@ -108,7 +108,8 @@ If needed, edit DB credentials in `config.php`.
 ### Run
 - Navigate to `http://localhost/hms/public/` to login.
 
-### Features<img width="1280" height="585" alt="hms" src="https://github.com/user-attachments/assets/092072b3-2d4d-4a5a-ab17-7ba9f776160f" />
+### Features
+
 
 - Secure login/logout with hashed passwords
 - Dashboard stats
