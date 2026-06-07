@@ -1,3 +1,6 @@
+<img width="1280" height="585" alt="hms" src="https://github.com/user-attachments/assets/31e85ec0-a411-4b0a-84b0-16a508b989d0" />
+<img width="1280" height="585" alt="hms" src="https://github.com/user-attachments/assets/8d682389-861a-456e-98bd-cea1111bbfb1" />
+<img width="1280" height="585" alt="hms" src="https://github.com/user-attachments/assets/166e70da-e6fd-4326-be3b-8cffa65e3740" />
 ## Hospital Management System (HMS)
 Overview
 The Hospital Management System (HMS) is a web-based application designed to streamline and automate hospital operations. The system helps healthcare facilities manage patient records, appointments, pharmacy services, laboratory workflows, and billing processes through a centralized platform.
@@ -106,7 +109,8 @@ If needed, edit DB credentials in `config.php`.
 ### Run
 - Navigate to `http://localhost/hms/public/` to login.
 
-### Features
+### Features<img width="1280" height="585" alt="hms" src="https://github.com/user-attachments/assets/092072b3-2d4d-4a5a-ab17-7ba9f776160f" />
+
 - Secure login/logout with hashed passwords
 - Dashboard stats
 - Patients CRUD
